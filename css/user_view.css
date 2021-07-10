@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    background: #f2f2f2;
+  }
+  table {
+      font-size: 30px;
+  }
+  td {
+      padding: 15px;
+  }
+  #td1
+  {
+      background-color: rgba(09,41,98,0.9);
+      color: white;
+      border: 10px;
+      margin-top: -10px;
+      padding: 10px;
+      text-align: center;
+  }
+  ul {
+        margin: 0;
+        padding: 0;
+        width: 22%;
+        font-size: 24px;
+        background-color:  rgba(09,41,98,0.9);
+        text-decoration: none;
+        position: fixed;
+        height: 100%;
+        overflow: auto;
+  }
+  li {
+      color: white;
+  }
+  li a {
+        display: block;
+        color: white;
+        padding: 8px 16px;
+        text-decoration: none;
+  }
+  li a:visited {
+        background-color: #e6b800;
+        color: white;
+        text-decoration: underline;	
+  }
+  li a:active {
+        background-color: #e6b800;
+        color: white;
+        text-decoration: underline;		
+  }
+  li a:hover {
+        background-color: #e6b800;
+        color: white;
+        text-decoration: underline;
+  }
+  .active{
+      background-color: #e6b800;
+  }
+  .active:hover{
+      text-decoration: none;
+  }
+  .basic_box {
+      position: absolute;
+      border: 1px solid #ccc;
+      border-radius: 15px;
+      margin-left: 225px;
+      top: 100px;
+      width: 600px;
+      padding: 50px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.19);
+      z-index: -1;
+      background-color:white;
+  }
+  .decor {
+      font-family: Times New Roman;
+  }
